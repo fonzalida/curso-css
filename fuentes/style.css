@@ -1,0 +1,20 @@
+@font-face{
+    /*nombre de la fuente*/
+    font-family: 'Roboto Mono', monospace;
+
+    /*ruta desde la cual se va a leer*/
+    
+    src: url('./fonts/RobotoMono-Bold.ttf') format('truetype');
+    src: url('./fonts/RobotoMono-Bold-subset.ttf') format('truetype');
+
+    /*peso tipografico*/
+
+    font-weight: 400;
+
+    font-display: swap;
+}
+
+h1{
+    font-family: 'Roboto Mono';
+    font-weight: 400;
+}
